@@ -2,15 +2,6 @@
 #include <stm32f10x_rcc.h>
 #include <stm32f10x_gpio.h>
 
-//Variant 13
-// A4
-// t = 15
-// T=20
-// B12
-// t = 10	
-// T=20
-
-
 void delay(int mill) {
 	for(int i=0;i< mill*0x010000;i++);
 }
